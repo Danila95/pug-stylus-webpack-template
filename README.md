@@ -24,3 +24,26 @@ enter command `npm install` or `yarn install` (if you use yarn) to install depen
 - `npm run dev` for development.
 - `npm run build`, build static files in `prod` directory.
 - `npm run watch`, start webpack-dev-server.
+
+## Проблема с плагином "file-loader" / Problem with the plugin "file-loader"
+Единственное, что я не смог сделать, так это граммотно настроить плагин "file-loader". Он копирует изображения на один уровень с папками "dev" и "prod". Поэтому я задействовал еще один плагин "copy-webpack-plugin", который копирует папку с изображениями "img" из "dev" в "prod". Как я с ним не бился я не смог настроить его так, как мне надо было. Если кто-нибудь знает как решить эту проблему, пожалуйста, напишите мне на мыло Danila00000@Gmail.com. Буду премного благодарен. Вот на этом форуме я подробно описываю проблему. http://www.cyberforum.ru/nodejs/thread2331890.html
+
+## Источники которые я использовал при создании этого шаблона
+
+ - https://www.youtube.com/watch?v=MRlBKfGktwI
+ - https://habr.com/post/347812/
+ - https://www.youtube.com/watch?v=cQakPE9LqKg
+ - https://tyapk.ru/blog/post/how-to-update-npm-packages
+ - https://habr.com/company/mailru/blog/340922/
+ - https://habr.com/post/309306/
+ - https://loftblog.ru/material/1-vvedenie-v-webpack-2/
+ - https://habr.com/post/350886/
+ 
+  npm-check-updates - это утилита, которая автоматически настраивает package.json с помощью последняя версия всех зависимостей
+ - https://www.npmjs.org/package/npm-check-updates
+ 
+ `npm install -g npm-check-updates`
+ 
+ `npm-check-updates -u`
+ 
+ `npm outdated`
