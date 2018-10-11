@@ -1,0 +1,20 @@
+extends blocks/common.blocks/common/template.pug
+
+block variables
+	- title="Webpack app"
+
+block content
+	.wrapper
+		include blocks/common.blocks/header/header.pug
+
+		main.content
+			p Hello world!
+			p Webpack is work!!! =)  
+		.container
+			ul
+				li Test 1
+				li Test 2
+				li Test 3
+				li Test 4
+
+	include blocks/common.blocks/footer/footer.pug
