@@ -28,6 +28,9 @@ enter command `npm install` or `yarn install` (if you use yarn) to install depen
 ## Проблема с плагином "file-loader" / Problem with the plugin "file-loader"
 Единственное, что я не смог сделать, так это граммотно настроить плагин "file-loader". Он копирует изображения на один уровень с папками "dev" и "prod". Поэтому я задействовал еще один плагин "copy-webpack-plugin", который копирует папку с изображениями "img" из "dev" в "prod". Как я с ним не бился я не смог настроить его так, как мне надо было. Если кто-нибудь знает как решить эту проблему, пожалуйста, напишите мне на мыло Danila00000@Gmail.com. Буду премного благодарен. Вот на этом форуме я подробно описываю проблему. http://www.cyberforum.ru/nodejs/thread2331890.html
 
+P.S.
+Точно такая же ситуация и с папкой "fonts" 
+
 ## Источники которые я использовал при создании этого шаблона
 
  - https://www.youtube.com/watch?v=MRlBKfGktwI
