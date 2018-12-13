@@ -42,7 +42,7 @@ P.S.
  - https://loftblog.ru/material/1-vvedenie-v-webpack-2/
  - https://habr.com/post/350886/
  
-  npm-check-updates - это утилита, которая автоматически настраивает package.json с помощью последняя версия всех зависимостей
+  npm-check-updates - это утилита, которая автоматически настраивает package.json, которая подтягивает последнии версии всех зависимостей
  - https://www.npmjs.org/package/npm-check-updates
  
  `npm install -g npm-check-updates`
