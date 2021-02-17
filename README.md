@@ -1,5 +1,7 @@
 # pug-stylus-webpack-template
 
+вот ссылка на мою новою версию сборки https://github.com/Danila95/pug-sass-webpack-template
+
  - Это  шаблон для сборщика проектов webpack 4.5.0
  - It is template for projects webpack 4.5.0 (for getting start learn webpack)
 
