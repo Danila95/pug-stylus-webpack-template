@@ -34,7 +34,7 @@
     "imagemin-webpack-plugin": "^2.3.0",
     "img-loader": "^3.0.0",
     "path": "^0.12.7",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-loader": "^2.4.0",
     "style-loader": "^0.23.0",
     "stylus": "0.54.5",
